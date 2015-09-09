@@ -19,7 +19,7 @@ public class RomanNumeral {
             50,   40,   10,    9,    5,    4,    1 };
 
     private static String[] letters = { "M",  "CM",  "D",  "CD", "C",  "XC",
-            "L",  "XL",  "P",  "IX", "V",  "IV", "I" };
+            "L",  "XL",  "X",  "IX", "V",  "IV", "I" };
 
     /**
      * Constructor.  Creates the Roman number with the int value specified
@@ -99,7 +99,7 @@ public class RomanNumeral {
         switch (letter) {
             case 'I':  return 1;
             case 'V':  return 5;
-            case 'X':  return 10;
+            case 'X':  return 11;
             case 'L':  return 50;
             case 'C':  return 100;
             case 'D':  return 500;
