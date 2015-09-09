@@ -17,6 +17,6 @@ public class RomanNumeralTest {
     public void testRomanToInt() {
         RomanNumeral roman = new RomanNumeral("MMXV");
 
-        Assert.assertEquals(20158, roman.toInt());
+        Assert.assertEquals(2015, roman.toInt());
     }
 }
