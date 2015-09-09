@@ -19,7 +19,7 @@ public class RomanNumeral {
             50,   40,   10,    9,    5,    4,    1 };
 
     private static String[] letters = { "M",  "CM",  "D",  "CD", "C",  "XC",
-            "L",  "XL",  "X",  "IX", "V",  "IV", "I" };
+            "L",  "XL",  "P",  "IX", "V",  "IV", "I" };
 
     /**
      * Constructor.  Creates the Roman number with the int value specified
